@@ -1,0 +1,40 @@
+inherit_from:
+  - minimal.yml
+inherit_mode:
+  merge:
+    - Exclude
+
+require:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+
+AllCops:
+  Exclude:
+    - "db/schema.rb"
+    - "vendor/**/*"
+    - "**/*_pb.rb"
+
+## Metrics
+Metrics/BlockLength:
+  Exclude:
+    - "**/*.rake"
+    - "db/**/*.rb"
+    - "**/spec/**/*.rb"
+Metrics/MethodLength:
+  Exclude:
+    - "db/**/*.rb"
+Metrics/ModuleLength:
+  Exclude:
+    - "**/*_spec.rb"
+
+## Lint
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "spec/**/*_spec.rb"
+
+## RSpec
+RSpec/ExampleLength:
+  Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false

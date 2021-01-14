@@ -1,0 +1,4 @@
+inherit_from: default.yml
+
+AllCops:
+  TargetRubyVersion: 2.6
