@@ -11,7 +11,6 @@ require:
 
 AllCops:
   Exclude:
-    - "db/schema.rb"
     - "vendor/**/*"
     - "**/*_pb.rb"
 
@@ -19,11 +18,7 @@ AllCops:
 Metrics/BlockLength:
   Exclude:
     - "**/*.rake"
-    - "db/**/*.rb"
     - "**/spec/**/*.rb"
-Metrics/MethodLength:
-  Exclude:
-    - "db/**/*.rb"
 Metrics/ModuleLength:
   Exclude:
     - "**/*_spec.rb"

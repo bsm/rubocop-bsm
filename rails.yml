@@ -1,0 +1,20 @@
+inherit_from:
+  - default.yml
+inherit_mode:
+  merge:
+    - Exclude
+
+require:
+  - rubocop-rails
+
+AllCops:
+  Exclude:
+    - "db/schema.rb"
+
+## Metrics
+Metrics/BlockLength:
+  Exclude:
+    - "db/**/*.rb"
+Metrics/MethodLength:
+  Exclude:
+    - "db/**/*.rb"
