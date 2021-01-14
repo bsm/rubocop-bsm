@@ -15,7 +15,7 @@ Then, put this into your `.rubocop.yml` file:
 ```yaml
 inherit_gem:
   rubocop-bsm:
-    - default.yml
+    - rails.yml
 inherit_mode:
   merge:
     - Exclude
