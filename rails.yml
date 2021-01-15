@@ -22,4 +22,4 @@ Metrics/MethodLength:
 ## Rails
 Rails/HttpPositionalArguments:
   Exclude:
-    - "spec/api/**/*.rb"
+    - "spec/api/**"
