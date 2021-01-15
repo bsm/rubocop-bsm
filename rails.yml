@@ -18,3 +18,8 @@ Metrics/BlockLength:
 Metrics/MethodLength:
   Exclude:
     - "db/**/*.rb"
+
+## Rails
+Rails/HttpPositionalArguments:
+  Exclude:
+    - "spec/api/**/*.rb"
