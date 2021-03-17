@@ -59,3 +59,5 @@ RSpec/ExampleLength:
   Enabled: false
 RSpec/MultipleExpectations:
   Enabled: false
+RSpec/MessageSpies:
+  EnforcedStyle: receive
