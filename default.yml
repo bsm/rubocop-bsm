@@ -35,3 +35,5 @@ RSpec/MultipleExpectations:
   Enabled: false
 RSpec/NamedSubject:
   Enabled: false
+RSpec/ExpectInHook:
+  Enabled: false
