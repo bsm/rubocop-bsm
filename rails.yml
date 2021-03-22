@@ -23,3 +23,5 @@ Metrics/MethodLength:
 Rails/HttpPositionalArguments:
   Exclude:
     - "spec/api/**"
+Rails/NotNullColumn:
+  Enabled: false
