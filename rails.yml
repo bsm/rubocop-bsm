@@ -22,6 +22,6 @@ Metrics/MethodLength:
 ## Rails
 Rails/HttpPositionalArguments:
   Exclude:
-    - "spec/api/**"
+    - "spec/**/*.rb"
 Rails/NotNullColumn:
   Enabled: false
