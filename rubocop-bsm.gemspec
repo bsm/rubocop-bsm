@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'rubocop-bsm'
-  spec.version       = '0.5.7'
+  spec.version       = '0.5.8'
   spec.authors       = ['Black Square Media']
   spec.email         = ['info@blacksquaremedia.com']
 

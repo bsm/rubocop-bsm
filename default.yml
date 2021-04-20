@@ -29,10 +29,6 @@ Lint/AmbiguousBlockAssociation:
     - "spec/**/*_spec.rb"
 
 ## RSpec
-RSpec/ExampleLength:
-  Enabled: false
-RSpec/MultipleExpectations:
-  Enabled: false
 RSpec/NamedSubject:
   Enabled: false
 RSpec/ExpectInHook:
