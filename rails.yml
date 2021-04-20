@@ -25,3 +25,5 @@ Rails/HttpPositionalArguments:
     - "spec/**/*.rb"
 Rails/NotNullColumn:
   Enabled: false
+Rails/HasAndBelongsToMany:
+  Enabled: false
