@@ -20,10 +20,12 @@ Metrics/MethodLength:
     - "db/**/*.rb"
 
 ## Rails
+Rails/EnvironmentVariableAccess:
+  Enabled: false
+Rails/HasAndBelongsToMany:
+  Enabled: false
 Rails/HttpPositionalArguments:
   Exclude:
     - "spec/**/*.rb"
 Rails/NotNullColumn:
-  Enabled: false
-Rails/HasAndBelongsToMany:
   Enabled: false

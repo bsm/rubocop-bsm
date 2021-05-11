@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'rubocop-bsm'
-  spec.version       = '0.5.9'
+  spec.version       = '0.6.0'
   spec.authors       = ['Black Square Media']
   spec.email         = ['info@blacksquaremedia.com']
 
@@ -17,9 +17,9 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'rubocop', '~> 1.0'
   spec.add_runtime_dependency 'rubocop-performance'
-  spec.add_runtime_dependency 'rubocop-rails'
   spec.add_runtime_dependency 'rubocop-rake'
   spec.add_runtime_dependency 'rubocop-rspec'
 
   spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rubocop-rails'
 end
