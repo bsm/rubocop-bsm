@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'rubocop-bsm'
-  spec.version       = '0.6.0'
+  spec.version       = '0.6.1'
   spec.authors       = ['Black Square Media']
   spec.email         = ['info@blacksquaremedia.com']
 
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.licenses      = ['Apache 2.0']
 
   spec.metadata['allowed_push_host'] = 'https://rubygems.org'
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.5.0')
+  spec.required_ruby_version = Gem::Requirement.new('>= 2.7.0')
   spec.files = `git ls-files -z`.split("\x0")
 
   spec.add_runtime_dependency 'rubocop', '~> 1.0'
@@ -22,4 +22,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rubocop-rails'
+  spec.metadata['rubygems_mfa_required'] = 'true'
 end
