@@ -61,3 +61,5 @@ RSpec/MultipleExpectations:
   Enabled: false
 RSpec/MessageSpies:
   EnforcedStyle: receive
+RSpec/Rails/InferredSpecType:
+  Enabled: false
